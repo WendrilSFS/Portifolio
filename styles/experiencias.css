@@ -1,0 +1,148 @@
+
+.experiencias{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30%;
+    margin-top: 10%;
+    color: white;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: aparecer 3.8s forwards;
+    animation-delay: 0.5s;
+    animation-timeline: scroll();
+}
+
+@keyframes aparecer{
+  0%{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  15%{
+    opacity: 1;
+    transform: translateX(50%);
+  }
+  30%{
+    opacity: 1;
+    transform: translateX(10%);
+  }
+  50%{
+    opacity: 1;
+    transform: translateX(2%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.habilidades1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+.hab{
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+h2{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.experiencia1{
+    display: flex;
+    margin-top: 5%;
+    width: auto;
+    border-radius: 10%;
+    height: auto;
+}
+
+.desc1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.experiencia2{
+    display: flex;
+    margin-top: 5%;
+    width: auto;
+    border-radius: 5%;
+    height: auto;
+}
+
+.desc2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.habilidades2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+.hab{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+h2{
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: white;
+  /* background-color: black; */
+}
+
+.experiencia3{
+  display: flex;
+  margin-top: 5%;
+  width: auto;
+  border-radius: 10%;
+  height: auto;
+}
+
+.desc3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.experiencia4{
+  display: flex;
+  margin-top: 5%;
+  width: auto;
+  border-radius: 5%;
+  height: auto;
+}
+
+.desc4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+
