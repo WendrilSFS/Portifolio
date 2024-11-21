@@ -10,21 +10,66 @@
     color:white;
 
 }
-
-.box-projetos {
-  padding: 16px;
-  margin: 16px;
-  max-width: 300px;
-  font-family: "Poppins",sans-serif;
-}
-
 h1 {
   font-size: 1.5em;
   margin: 16px 0 8px;
 }
-.desc{
-  font-size: 1em;
-  color: white;
-  /* background-color: black; */
-}
+ .imagens{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 700px;
+  /* background-color: blue; */
+ }
 
+ .imagens .img1{
+  height: 90%;
+  width: 500px;
+  background-image: url(../imagens/Captura\ de\ tela_21-11-2024_85259_www.figma.com.jpeg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+ }
+
+ .imagens .img2{
+  height: 90%;
+  width: 500px;
+  background-image: url(../imagens/Captura\ de\ tela_21-11-2024_84545_.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .img1, .img2{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+ }
+
+ .imagens h3{
+  color: black;
+  font-size: 2rem;
+  text-shadow: 0px 0px 20px black;
+  transition: 0.5s ease;
+ }
+
+ .imagens h3:hover{
+  transform: scale(1.05);
+ }
+
+
+@media screen and (max-width: 600px){
+
+  .projetos{
+    margin-bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagens{
+    /* background-color: aqua; */
+    width: auto;
+  }
+}

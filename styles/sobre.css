@@ -101,4 +101,11 @@ h1 {
     .descricao {
         width: 80%;
     }
+    .imagens{
+        height: 1300px;
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+    }
+
 }

@@ -50,4 +50,9 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+    .lista-menu{
+        width: 10%;
+        font-size: 12px;
+        gap: 14px;
+    }
 }
